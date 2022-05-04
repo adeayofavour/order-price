@@ -1,0 +1,118 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background: url(./images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+  position: relative;
+  background-color: #fff;
+  width: 23%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img img{
+   width: 100%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.container{
+    padding: 2rem 1.5rem;
+    font-family: 'Red hat display', sans-serif;
+}
+
+.text-box{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+
+.text-box p{
+    font-size: smaller;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.music-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.7rem 0.5rem;
+}
+
+.text-image{
+    display: flex;
+    align-items: center;
+}
+
+.text-image img{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.text{
+    font-size: smaller;
+}
+
+.text h3{
+    font-size: smaller;
+}
+
+.icon-link{
+    color: hsl(224, 23%, 55%);
+    font-size: smaller;
+}
+
+.price-btn{
+    width: 100%;
+    padding: 10px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-size: small;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.link-p{
+    padding-top: 1rem;
+}
+
+.link-p p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: small;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+@media (max-width: 51rem){
+    .card{
+        width: 60%;
+    }
+}
+
+@media (max-width: 23rem){
+    .card{
+        width: 80%;
+    }
+}
